@@ -1,0 +1,15 @@
+logging.level.root: WARN
+logging.level.com.ayan.github.demos.semanticversioningworkflow: INFO
+
+server:
+  port : 8080
+
+logging:
+  pattern:
+    console: "[%d{yyyy-MM-dd HH:mm:ss.SSS}][%c{1}][%M][%level][%L][%msg]%n"
+
+spring:
+  application:
+    name: "semantic-versioning-workflow"
+  main:
+    banner-mode: off
